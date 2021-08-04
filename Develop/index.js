@@ -120,7 +120,7 @@ ${answers.challenges}
 ## Usage
 ${answers.usage}
 
-## Usage
+## Test
 ${answers.test}
 
 ## Installation
