@@ -1,9 +1,9 @@
 
 
-# Welcome to asd! 
+# Welcome to Skillet & Shaker! 
  
 ## Link to Deployed Site
-(https://github.com/BeardoMattix)
+no
 
 ## Table of Contents
   * [Description](#description)
@@ -16,34 +16,34 @@
   * [Questions](#questions)
 
 ## Description
-NO way dude!
+N/A
  
 ## Technologies
-Javascript Motherfucker.
+Javascript and Node.js
 
 ## Functionality
-It works like a damn charm
+It works so far!
 
-#### Demo
-
+## Demo
+n/a
 
 ## Challenges
 undefined
 
 ## Usage
+Use this app to create a professional readme from the command line!
 
-
-## Usage
-
+## Test
+I don't really understand this part.
 
 ## Installation
-
+clone, npm i install.
 
 ## Contributors
 undefined
 
 ## Future Development
-
+NO NO NO NO NO
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: BeardoMattix
