@@ -1,7 +1,10 @@
 // TODO: Include packages needed for this application
+// I included File Structure, Inquirer, and Util.
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+
+// This allows me to write files asynchronously.
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
@@ -102,7 +105,6 @@ ${answers.deployed}
 ## Description
 ${answers.description}
  
-
 ## Technologies
 ${answers.technologies}
 
@@ -110,6 +112,7 @@ ${answers.technologies}
 ${answers.functionality}
 
 #### Demo
+${answers.demo}
 
 ## Challenges
 ${answers.challenges}
@@ -136,7 +139,7 @@ ${answers.questions}
 const init = () => {
     questions()
     .then((answers) => writeFileAsync('README.md', writeReadme(answers)))
-    .then(() => console.log('Successfully wrote to README.md'))
+    .then(() => console.log('Successfully written to README.md'))
     .catch((err) => console.error(err));
 };
 
