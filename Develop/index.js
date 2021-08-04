@@ -81,7 +81,6 @@ const questions = () => {
   };
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
 const writeReadme = (answers) => `
 
@@ -137,7 +136,7 @@ ${answers.questions}
 const init = () => {
     questions()
     .then((answers) => writeFileAsync('README.md', writeReadme(answers)))
-    .then(() => console.log('Successfully wrote to index.html'))
+    .then(() => console.log('Successfully wrote to README.md'))
     .catch((err) => console.error(err));
 };
 
