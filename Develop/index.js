@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -16,6 +16,21 @@ const questions = () => {
         type: 'input',
         name: 'description',
         message: 'Describe your project',
+      },
+      {
+        type: 'input',
+        name: 'technologies',
+        message: 'What technologies did you use?',
+      },
+      {
+        type: 'input',
+        name: 'functionality',
+        message: 'Describe the functionality of your project',
+      },
+      {
+        type: 'input',
+        name: 'functionality',
+        message: 'Insert a markdown formatted link to a demo (screenshot or gif) of your project',
       },
       {
         type: 'input',
@@ -56,12 +71,56 @@ const questions = () => {
   };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 const writeReadme = (answers) => `
 
+# Welcome to ${answers.title}! 
+ 
+## Link to Deployed Site
 
 
+## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Challenges](#challenges)
+  * [Usage](#usage)
+  * [Test](#test)
+  * [Contributors](#contributors)
+  * [License](#license)
+  * [Questions](#questions)
+
+## Description
+${answers.description}
+ 
+
+## Technologies
+${answers.technologies}
+
+## Functionality
+${answers.functionality}
+
+#### Demo
+
+## Challenges
+${answers.challenges}
+
+## Usage
+${answers.usage}
+
+## Usage
+${answers.test}
+
+## Installation
+${answers.install}
+## Contributors
+
+## Future Development
+* Add functionality to send an email whenever a user asks a question in the Contact Me section. 
+* Include animations to make the projects section look better. 
+
+## Questions
+${answers.questions}
 `
 
 // TODO: Create a function to initialize app
