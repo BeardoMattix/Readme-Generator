@@ -32,11 +32,6 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'functionality',
-        message: 'Describe the functionality of your project.',
-      },
-      {
-        type: 'input',
         name: 'demo',
         message: 'Insert a markdown formatted link to a demo (screenshot or gif) of your project',
       },
@@ -62,17 +57,22 @@ const questions = () => {
       },
       {
         type: 'input',
+        name: 'future',
+        message: 'List any ideas for furute devlopment',
+      },
+      {
+        type: 'input',
         name: 'license',
         message: 'Input the license for your project',
       },
       {
         type: 'input',
-        name: 'questions',
+        name: 'github',
         message: 'What is your GitHub username?',
       },
       {
         type: 'input',
-        name: 'questions',
+        name: 'email',
         message: 'What is your email address?',
       },
       {
@@ -111,7 +111,7 @@ ${answers.technologies}
 ## Functionality
 ${answers.functionality}
 
-#### Demo
+## Demo
 ${answers.demo}
 
 ## Challenges
@@ -125,14 +125,16 @@ ${answers.test}
 
 ## Installation
 ${answers.install}
+
 ## Contributors
 ${answers.contributors}
+
 ## Future Development
-* Add functionality to send an email whenever a user asks a question in the Contact Me section. 
-* Include animations to make the projects section look better. 
+${answers.future}
 
 ## Questions
-${answers.questions}
+${"* " + "Take a look at my GitHub profile to see other projects: " + answers.github}
+${"* " + "If you have any questions, please reach out via email: " + answers.email}
 `
 
 // TODO: Create a function to initialize app
