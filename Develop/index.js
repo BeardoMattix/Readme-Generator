@@ -30,6 +30,11 @@ const questions = () => {
       {
         type: 'input',
         name: 'functionality',
+        message: 'Describe the functionality of your project.',
+      },
+      {
+        type: 'input',
+        name: 'demo',
         message: 'Insert a markdown formatted link to a demo (screenshot or gif) of your project',
       },
       {
@@ -59,13 +64,18 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'github',
+        name: 'questions',
         message: 'What is your GitHub username?',
       },
       {
         type: 'input',
-        name: 'email',
+        name: 'questions',
         message: 'What is your email address?',
+      },
+      {
+        type: 'input',
+        name: 'deployed',
+        message: 'Insert a markdown formatted link to your deployed site',
       },
     ]);
   };
@@ -78,7 +88,7 @@ const writeReadme = (answers) => `
 # Welcome to ${answers.title}! 
  
 ## Link to Deployed Site
-
+${answers.deployed}
 
 ## Table of Contents
   * [Description](#description)
@@ -114,7 +124,7 @@ ${answers.test}
 ## Installation
 ${answers.install}
 ## Contributors
-
+${answers.contributors}
 ## Future Development
 * Add functionality to send an email whenever a user asks a question in the Contact Me section. 
 * Include animations to make the projects section look better. 
