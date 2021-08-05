@@ -1,6 +1,6 @@
 
 
-# Welcome to go! 
+# Welcome to Skillet & Shaker! 
  
 ## Link to Deployed Site
 no
@@ -16,39 +16,40 @@ no
   * [Questions](#questions)
 
 ## Description
-goi
+A place to find the recipes you want, when you want them!
  
 ## Technologies
-sadf
+HTML, CSS, JS, Bulma.io 
 
 ## Functionality
-i said no
+It is a recipe search engine that helps users find food and drink recipes quickly.
 
 ## Demo
-nope
+no thanks
 
 ## Challenges
 undefined
 
 ## Usage
-you think you know
+Use this to find recipes!
 
 ## Test
-test it bitch
+NONE
 
 ## Installation
-there is a way
+Download the code and get cracking!
 
 ## Contributors
 undefined
 
 ## Future Development
-make better
+Make better
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: BeardoMattix
+![GitHub Profile](https://github.com/BeardoMattix
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
-MIT License
+MIT 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
