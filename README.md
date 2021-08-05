@@ -1,6 +1,6 @@
 
 
-# Welcome to gi]! 
+# Welcome to go! 
  
 ## Link to Deployed Site
 no
@@ -16,39 +16,39 @@ no
   * [Questions](#questions)
 
 ## Description
-gi
+goi
  
 ## Technologies
-gasdf
+sadf
 
 ## Functionality
-gbhasdf
+i said no
 
 ## Demo
-asdf
+nope
 
 ## Challenges
 undefined
 
 ## Usage
-asdf
+you think you know
 
 ## Test
-ghasd
+test it bitch
 
 ## Installation
-asdf
+there is a way
 
 ## Contributors
 undefined
 
 ## Future Development
-asdfa
+make better
 
 ## Questions
-* Take a look at my GitHub profile to see other projects: beardomattix
-* If you have any questions, please reach out via email: christopher.mattix  gmail.com
+* Take a look at my GitHub profile to see other projects: BeardoMattix
+* If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
 MIT License
-!(https://img.shields.io/badge/MIT-MIT-success)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

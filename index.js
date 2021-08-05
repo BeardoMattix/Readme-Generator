@@ -138,7 +138,7 @@ ${"* " + "If you have any questions, please reach out via email: " + answers.ema
 
 ## License 
 ${answers.license}
-!(https://img.shields.io/badge/MIT-MIT-success)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 `
 
 // TODO: Create a function to initialize app
