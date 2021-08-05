@@ -1,9 +1,9 @@
 
 
-# Welcome to Skillet & Shaker! 
+# Welcome to no no no no no ! 
  
 ## Link to Deployed Site
-no
+https://unc.bootcampcontent.com/dbilenkin-KJyiXJ/fullstack-may-2021
 
 ## Table of Contents
   * [Description](#description)
@@ -16,35 +16,38 @@ no
   * [Questions](#questions)
 
 ## Description
-N/A
+go 
  
 ## Technologies
-Javascript and Node.js
+go
 
 ## Functionality
-It works so far!
+go
 
 ## Demo
-n/a
+go
 
 ## Challenges
 undefined
 
 ## Usage
-Use this app to create a professional readme from the command line!
+go
 
 ## Test
-I don't really understand this part.
+go
 
 ## Installation
-clone, npm i install.
+go
 
 ## Contributors
 undefined
 
 ## Future Development
-NO NO NO NO NO
+try to make this a listed section
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: BeardoMattix
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
+
+## License 
+MIT

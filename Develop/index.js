@@ -135,6 +135,9 @@ ${answers.future}
 ## Questions
 ${"* " + "Take a look at my GitHub profile to see other projects: " + answers.github}
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
+
+## License 
+${answers.license}
 `
 
 // TODO: Create a function to initialize app
