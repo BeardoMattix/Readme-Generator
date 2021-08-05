@@ -138,7 +138,7 @@ ${"* " + "Take a look at my GitHub profile to see other projects: "}
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
 ## License 
-${answers.license}
+${answers.license}\n
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 `
 

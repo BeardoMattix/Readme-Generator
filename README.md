@@ -1,9 +1,9 @@
 
 
-# Welcome to asdf! 
+# Welcome to stuff! 
  
 ## Link to Deployed Site
-nope
+no
 
 ## Table of Contents
   * [Description](#description)
@@ -16,13 +16,13 @@ nope
   * [Questions](#questions)
 
 ## Description
-asdf
+ junk
  
 ## Technologies
-asdf
+there is stuff and junk
 
 ## Functionality
-asdf
+nboasdf
 
 ## Demo
 asdf
@@ -52,4 +52,5 @@ asdf
 
 ## License 
 MIT
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
