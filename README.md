@@ -1,6 +1,6 @@
 
 
-# Welcome to stuff! 
+# Welcome to there is a thing! 
  
 ## Link to Deployed Site
 no
@@ -16,41 +16,41 @@ no
   * [Questions](#questions)
 
 ## Description
- junk
+this is that thing
  
 ## Technologies
-there is stuff and junk
+look at this thing
 
 ## Functionality
-nboasdf
+things and things
 
 ## Demo
-asdf
+NO
 
 ## Challenges
 undefined
 
 ## Usage
-asdf
+NOPE
 
 ## Test
-asdf
+TEST this motherfucker
 
 ## Installation
-asdf
+You just do it. IDK.
 
 ## Contributors
 undefined
 
 ## Future Development
-asdf
+no
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
-![GitHub Profile](https://github.com/BeardoMattix)
+[GitHub Profile](https://github.com/BeardoMattix)
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
-MIT
+no
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
