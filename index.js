@@ -134,7 +134,7 @@ ${answers.future}
 
 ## Questions
 ${"* " + "Take a look at my GitHub profile to see other projects: "}
-![GitHub Profile](https://github.com/${answers.github}
+![GitHub Profile](https://github.com/${answers.github})
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
 ## License 
