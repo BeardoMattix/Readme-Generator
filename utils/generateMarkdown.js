@@ -4,7 +4,12 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+async function renderLicenseLink(license) {
+  const url = "https://api.github.com/licenses";
+  const response = await fetch(url)
+  const result = await response.json()
+  console.log(result);
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string

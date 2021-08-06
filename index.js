@@ -3,6 +3,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown');
+
 
 // This allows me to write files asynchronously.
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -89,7 +91,7 @@ const questions = () => {
   };
 
 // TODO: Create a function to write README file
-
+// This is the string literal that will generate the markdown in the readme.md file.
 const writeReadme = (answers) => `
 
 # Welcome to ${answers.title}! 
@@ -148,6 +150,7 @@ ${answers.license}\n
 `
 
 // TODO: Create a function to initialize app
+// This function also writes the readme.md file. 
 const init = () => {
     questions()
     .then((answers) => writeFileAsync('README.md', writeReadme(answers)))
