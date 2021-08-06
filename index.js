@@ -2,7 +2,7 @@
 // I included File Structure, Inquirer, and Util.
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('utils');
+const util = require('util');
 
 // This allows me to write files asynchronously.
 const writeFileAsync = util.promisify(fs.writeFile);
