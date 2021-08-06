@@ -68,8 +68,9 @@ const questions = () => {
         message: 'List any ideas for furute devlopment',
       },
       {
-        type: 'input',
+        type: 'checkbox',
         name: 'license',
+        choices: ['MIT', 'LGPL-3.0', 'MPL-2.0', 'AGPL-3.0', 'Unlicense', 'Apache-2.0', 'GPL-3.0'],
         message: 'Input the license for your project',
       },
       {

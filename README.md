@@ -1,6 +1,6 @@
 
 
-# Welcome to chris project! 
+# Welcome to asdf! 
  
 ## Link to Deployed Site
 nope
@@ -16,34 +16,34 @@ nope
   * [Questions](#questions)
 
 ## Description
-hot how this is working
+asdf
  
 ## Technologies
-there were some techs baby
+asdf
 
 ## Functionality
-there is a function
+asdf
 
 ## Demo
-fuck that shit dawg
+asdf
 
 ## Challenges
-NONE. Easy.
+asdf
 
 ## Usage
-Use it or don't. IDGAF
+asdf
 
 ## Test
-Testes...
+asdf
 
 ## Installation
-you don't, it installs you!
+asdf
 
 ## Contributors
 undefined
 
 ## Future Development
-Make it so much better!
+asdf
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
@@ -51,6 +51,6 @@ Make it so much better!
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
-MIT
+AGPL-3.0
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
