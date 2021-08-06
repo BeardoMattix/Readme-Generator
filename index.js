@@ -47,6 +47,11 @@ const questions = () => {
       },
       {
         type: 'input',
+        name: 'challenges',
+        message: 'What challenges were faced while creating this project?',
+      },
+      {
+        type: 'input',
         name: 'contribute',
         message: 'What are the contribution guidelines for your project?',
       },
@@ -134,7 +139,7 @@ ${answers.future}
 
 ## Questions
 ${"* " + "Take a look at my GitHub profile to see other projects: "}
-[GitHub Profile](https://github.com/${answers.github})
+[My GitHub Profile](https://github.com/${answers.github})
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
 ## License 

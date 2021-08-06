@@ -1,9 +1,9 @@
 
 
-# Welcome to ReadMe Generator! 
+# Welcome to NEW TEST! 
  
 ## Link to Deployed Site
-Not at this time, thanks. 
+nope
 
 ## Table of Contents
   * [Description](#description)
@@ -16,38 +16,38 @@ Not at this time, thanks.
   * [Questions](#questions)
 
 ## Description
-This is a command line application that allows developers to quickly and easily create a professional readme.md file from the command line.
+This is a test
  
 ## Technologies
-JavaScrips, Node.js
+JS Node.js
 
 ## Functionality
-Once initiallized, this app prompts the user with a series of questions about their project. Once all questions have been answered, the app creates a readme.md file. 
+Testing the functionality now!
 
 ## Demo
-no
+nope
 
 ## Challenges
-undefined
+Making the license section work.
 
 ## Usage
-This app should be used to create readme files from the command line. It can also be used as a way to understand how to write files based on promts and answers. 
+Use this to create a readme file from the command line. 
 
 ## Test
-To test this application, download the source code and run it in node.js.
+???
 
 ## Installation
-This app is initiallized through node. The user downloads the source code and then runs "npm i" to install all dependencies (inquirer). Then run in node by typing "node index.js" in the command line. 
+command line and node.
 
 ## Contributors
 undefined
 
 ## Future Development
-In the future I would like to include API calls to dynamically generate more content. 
+Make it better and use APIs!
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
-[GitHub Profile](https://github.com/BeardoMattix)
+[My GitHub Profile](https://github.com/BeardoMattix)
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
