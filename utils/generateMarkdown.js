@@ -18,14 +18,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
-
-
-/* List of Common Licenses:
-MIT
-GPL-3.0 
-Apache-2.0
-LGPL-3.0 
-MPL-2.0 
-AGPL-3.0
-Unlicense
-*/

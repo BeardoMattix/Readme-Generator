@@ -152,8 +152,8 @@ ${"* " + "If you have any questions, please reach out via email: " + answers.ema
 
 ## License 
 This application is covered by the ${answers.license} License\n
-![badge](https://img.shields.io/badge/${answers.license}-${answers.license}-success)\n
-[License](https://opensource.org/licenses/${answers.license})
+[License Information](https://opensource.org/licenses/${answers.license})\n
+![badge](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=success)
 
 `
 

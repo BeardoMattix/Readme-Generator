@@ -1,9 +1,9 @@
 
 
-# Welcome to asdf! 
+# Welcome to Readme Generator! 
  
 ## Link to Deployed Site
-asdf
+[link test](https://shields.io/)
 
 ## Table of Contents
   * [Description](#description)
@@ -16,44 +16,44 @@ asdf
   * [Questions](#questions)
 
 ## Description
-asdf
+This is an application that allows users to create a professional readme file from the command line.
  
 ## Technologies
-asdf
+JS and Node.js
 
 ## Functionality
-asdf
+The application asks the user questions and dynamically generates a readme.md file based on the answers.
 
 ## Demo
-asdf
+N/A
 
 ## Challenges
-asdf
+Rending the badges for licenses and generating links to license documentation.
 
 ## Usage
-asdf
+Use this application to write better readme files in less time.
 
 ## Test
-asdf
+None
 
 ## Installation
-asdf
+* npm init * npm i
 
 ## Contributors
 undefined
 
 ## Future Development
-asdf
+Make the integration of images easier for the user.
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
 [My GitHub Profile](https://github.com/BeardoMattix)
-* If you have any questions, please reach out via email: chris
+* If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
 ## License 
-This application is covered by the MPL-2.0 License
+This application is covered by the gpl-3.0 License
 
-![badge](https://img.shields.io/badge/MPL-2.0-MPL-2.0-success)
+[License Information](https://opensource.org/licenses/gpl-3.0)
 
-[License](https://opensource.org/licenses/MPL-2.0)
+![badge](https://img.shields.io/static/v1?label=License&message=gpl-3.0&color=success)
 
