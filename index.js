@@ -18,11 +18,6 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'repo',
-        message: 'What is the name of your repository?',
-      },
-      {
-        type: 'input',
         name: 'description',
         message: 'Describe your project',
       },
@@ -90,7 +85,7 @@ const questions = () => {
       {
         type: 'input',
         name: 'deployed',
-        message: 'Insert a markdown formatted link to your deployed site',
+        message: 'Insert link to your deployed site',
       },
     ]);
   };
@@ -102,7 +97,7 @@ const writeReadme = (answers) => `
 # Welcome to ${answers.title}! 
  
 ## Link to Deployed Site
-${answers.deployed}
+[Deployed Site](${answers.deployed})
 
 ## Table of Contents
   * [Description](#description)
@@ -124,7 +119,7 @@ ${answers.technologies}
 ${answers.functionality}
 
 ## Demo
-${answers.demo}
+![badge](${answers.demo})
 
 ## Challenges
 ${answers.challenges}
@@ -149,9 +144,8 @@ ${"* " + "Take a look at my GitHub profile to see other projects: "}
 [My GitHub Profile](https://github.com/${answers.github})
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
-## License 
-This application is covered by the ${answers.license} License\n
-[License Information](https://opensource.org/licenses/${answers.license})\n
+## License
+[${answers.license}](https://opensource.org/licenses/${answers.license})\n
 ![badge](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=success)
 
 `
@@ -160,7 +154,7 @@ This application is covered by the ${answers.license} License\n
 // This function also writes the readme.md file. 
 const init = () => {
     questions()
-    .then((answers) => writeFileAsync('README.md', writeReadme(answers)))
+    .then((answers) => writeFileAsync('./markdown/README.md', writeReadme(answers)))
     .then(() => console.log('Successfully written to README.md'))
     .catch((err) => console.error(err));
 };
