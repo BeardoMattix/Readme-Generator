@@ -31,7 +31,7 @@ asdf
 asdf
 
 ## Usage
-sadf
+asdf
 
 ## Test
 asdf
@@ -48,9 +48,12 @@ asdf
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
 [My GitHub Profile](https://github.com/BeardoMattix)
-* If you have any questions, please reach out via email: christopher.mattix@gmail.com
+* If you have any questions, please reach out via email: chris
 
 ## License 
-GPL-3.0
+This application is covered by the MPL-2.0 License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![badge](https://img.shields.io/badge/MPL-2.0-MPL-2.0-success)
+
+[License](https://opensource.org/licenses/MPL-2.0)
+

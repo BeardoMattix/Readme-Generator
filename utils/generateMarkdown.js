@@ -4,12 +4,7 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-async function renderLicenseLink(license) {
-  const url = "https://api.github.com/licenses";
-  const response = await fetch(url)
-  const result = await response.json()
-  console.log(result);
-}
+function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -23,3 +18,14 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+
+/* List of Common Licenses:
+MIT
+GPL-3.0 
+Apache-2.0
+LGPL-3.0 
+MPL-2.0 
+AGPL-3.0
+Unlicense
+*/

@@ -19,6 +19,11 @@ const questions = () => {
       },
       {
         type: 'input',
+        name: 'repo',
+        message: 'What is the name of your repository?',
+      },
+      {
+        type: 'input',
         name: 'description',
         message: 'Describe your project',
       },
@@ -70,7 +75,7 @@ const questions = () => {
       {
         type: 'checkbox',
         name: 'license',
-        choices: ['MIT', 'LGPL-3.0', 'MPL-2.0', 'AGPL-3.0', 'Unlicense', 'Apache-2.0', 'GPL-3.0'],
+        choices: ['MIT', 'lgpl-3.0', 'MPL-2.0', 'Apache-2.0', 'gpl-3.0'],
         message: 'Input the license for your project',
       },
       {
@@ -146,8 +151,10 @@ ${"* " + "Take a look at my GitHub profile to see other projects: "}
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
 ## License 
-${answers.license}\n
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This application is covered by the ${answers.license} License\n
+![badge](https://img.shields.io/badge/${answers.license}-${answers.license}-success)\n
+[License](https://opensource.org/licenses/${answers.license})
+
 `
 
 // TODO: Create a function to initialize app
