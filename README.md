@@ -1,8 +1,8 @@
 
 
-# Welcome to my README Generator!
-## This is a command line application for creating professional readme files.
- 
+# <p align="center">Welcome to my README Generator!</p> 
+## <p align="center">A command line application for creating professional readme files.</p>
+
 ## Link to Deployed Site
 
 
@@ -17,7 +17,8 @@
   * [Questions](#questions)
 
 ## Description
-asdf
+
+This application is designed to make writing readme files quick and easy. The application uses Node.js and the Inquirer npm to generate a professional and consistently formatted readme file from the command line. Once installed, the user only needs to answer the questions to generate a readme.md file for use in the project repository.
  
 ## Technologies
 * JavaScript
