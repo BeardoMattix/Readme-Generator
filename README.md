@@ -1,6 +1,7 @@
 
 
-# Welcome to Readkjlpasdf! 
+# Welcome to my README Generator!
+## This is a command line application for creating professional readme files.
  
 ## Link to Deployed Site
 
@@ -19,31 +20,35 @@
 asdf
  
 ## Technologies
-asdf
+* JavaScript
+* Node.js
+* NPM "Inquirer"
 
 ## Functionality
-asdf
+
+This application uses Node.js and the 'Inquirer' npm to create a readme file for use in GitHub repositories. Once the application is installed, the user is presented with a series of prompts about their current project. The user can skip questions by pressing "Enter," which will leave that section blank. The user can also alter the questions function in the index.js file to add or remove questions as needed.
 
 ## Demo
-asdf
+
 
 ## Challenges
-asdf
+
+The main challenge of this project was the license section. Decided which licenses to make available was the first challenge. Once I had created a list of the most common licenses, it was a matter of generating links to the documentation for each license. The other challenge were creating the badges for the licenses. I used Shields.io to create the badges.
 
 ## Usage
-asdf
-
-## Test
-asdf
+* Use this app to create a professional and complete readme.md file from the command line.
+* Use to understand Node.js and npm libraries.
 
 ## Installation
-asdf
-
-## Contributors
-undefined
+* Install Node.js
+* Enter 'npm init' in command line
+* Enter 'npm i' in the command line
+* Enter 'node index.js' in the command line
 
 ## Future Development
-asdf
+* Increase the number of available licenses.
+* Broaden the use case for this app and create something similar that will render an html page.
+* Integrate into existing projects.
 
 ## Questions
 * Take a look at my GitHub profile to see other projects: 
