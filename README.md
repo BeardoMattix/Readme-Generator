@@ -34,7 +34,7 @@ This application uses Node.js and the 'Inquirer' npm to create a readme file for
 
 ## Challenges
 
-The main challenge of this project was the license section. Decided which licenses to make available was the first challenge. Once I had created a list of the most common licenses, it was a matter of generating links to the documentation for each license. The other challenge were creating the badges for the licenses. I used Shields.io to create the badges.
+The main challenge of this project was the license section. Deciding which licenses to make available was the first challenge. Once I had created a list of the most common licenses, it was a matter of generating links to the documentation for each license. The other challenge was creating the badges for the licenses. I used Shields.io to create the badges.
 
 ## Usage
 * Use this app to create a professional and complete readme.md file from the command line.
