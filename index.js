@@ -140,7 +140,7 @@ ${answers.contributors}
 ${answers.future}
 
 ## Questions
-${"* " + "Take a look at my GitHub profile to see other projects: "}
+${"* " + "Take a look at my GitHub profile to see my other projects: "}
 [My GitHub Profile](https://github.com/${answers.github})
 ${"* " + "If you have any questions, please reach out via email: " + answers.email}
 
