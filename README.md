@@ -32,6 +32,11 @@ This application uses Node.js and the 'Inquirer' npm to create a readme file for
 ## Demo
 [DEMO Video](https://user-images.githubusercontent.com/82903201/128649566-2b2f4bf5-4058-4893-9a1e-195458a1af7c.mp4)
 
+## Example README.md
+![Screen Shot 2021-08-09 at 9 38 07 AM](https://user-images.githubusercontent.com/82903201/128715495-c0ce8077-f8ab-47e0-8bb8-0e146fc43687.png)
+![Screen Shot 2021-08-09 at 9 38 37 AM](https://user-images.githubusercontent.com/82903201/128715501-e2959b61-3978-4708-9021-f67f177b8b11.png)
+![Screen Shot 2021-08-09 at 9 38 49 AM](https://user-images.githubusercontent.com/82903201/128715517-8cc9a5ce-bbae-42ba-a34f-4a6e307bf163.png)
+
 ## Challenges
 
 The main challenge of this project was the license section. Deciding which licenses to make available was the first challenge. Once I had created a list of the most common licenses, it was a matter of generating links to the documentation for each license. The other challenge was creating the badges for the licenses. I used Shields.io to create the badges.
