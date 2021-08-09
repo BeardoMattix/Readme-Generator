@@ -1,9 +1,9 @@
 
 
-# Welcome to Skillet & Shaker! 
+# Welcome to This is a Test Readme! 
  
 ## Link to Deployed Site
-[Deployed Site]()
+[Deployed Site](N/A)
 
 ## Table of Contents
   * [Description](#description)
@@ -16,37 +16,37 @@
   * [Questions](#questions)
 
 ## Description
-A recipe search engine for food and cocktail recipes. This application uses the Edamam and Cocktail DB APIs to find recipes based on user inputs.
+This readme was generated using the Readme Generator Application I built with Node.js
  
 ## Technologies
-HTML, Bulma, CSS, JS, JQuery
+JavaScript and Node.js
 
 ## Functionality
-The app allows users to search for food and drink recipes by calling the Edamam and CocktailDB APIs. The user can modify their search and they can also save the recipes they like on the page.
+The program uses the npm 'Iquirer' package. It asks users questions and generates a readme file based on the responses. The Readme file is pre-formatted, so the user will always have a consistent readme for their repo.
 
 ## Demo
-![badge](NA)
+![badge](This is where the user can quickly add demo gifs and screenshots to their readme. )
 
 ## Challenges
-Weird errors from sharing code in slack. Getting the API calls to render the right information.
+The license section was the trickiest part of building this application. 
 
 ## Usage
-Use to find recipes quickly and save them to local storage for later use.
+Use this application to create a professional readme file from the command line!
 
 ## Test
-NA
+N/A
 
 ## Installation
-NA
+This app is installed by running 'npm init' followed by 'npm i' to install the dependencies. Once all dependencies are installed, run 'node index.js' in the command line to use the application. 
 
 ## Contributors
 undefined
 
 ## Future Development
-Make the site more dynamic and create a downloadable recipe book for users.
+In the future I would like to create more application in node that create shortcuts for developers. This project is a good introduction to the back-end and how to use libraries.
 
 ## Questions
-* Take a look at my GitHub profile to see other projects: 
+* Take a look at my GitHub profile to see my other projects: 
 [My GitHub Profile](https://github.com/BeardoMattix)
 * If you have any questions, please reach out via email: christopher.mattix@gmail.com
 
